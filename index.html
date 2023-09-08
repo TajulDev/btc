@@ -13,7 +13,38 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
-<body class="bg-black">
+<body>
+    <header>
+        <div class="upper_header mb-4">
+            <div class="container">
+                <div class="d-flex gap-2 align-items-center text-white">
+                    <img width="40" class="img-fluid" src="./assets/images/logo.png" alt="">
+                    <h1>BTC ERC20 - </h1>
+                    <h5>The World's Only Minable ERC20 Token </h5>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="d-flex align-items-center justify-content-between mb-4">
+                <div class="d-flex align-items-center gap-4">
+                    <a href="#"><button class="btc_btn"><span>BTCe</span><span>Miner</span></button></a>
+                    <a href="#">Tokenomics</a>
+                    <a href="#">Roadmap</a>
+                    <a href="#">Exchange</a>
+                    <a href="#">Whitepaper</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="d-flex gap-3 align-items-center">
+                    <a href="#"><img width="30" src="./assets/images/coinmarketcap.png" alt=""></a>
+                    <a href="#"><img width="30" src="./assets/images/dextools.png" alt=""></a>
+                    <a href="#"><img width="30" src="./assets/images/etherscan.png" alt=""></a>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
     <main class="container">
 
         <!-- first row pink sale -->
@@ -374,7 +405,7 @@
             </div>
         </div>
     </main>
-    <footer>
+    <footer class="mb-4">
         <div class="container">
             <div class="d-flex flex-wrap justify-content-between mb-3">
                 <div class="d-flex flex-wrap gap-4">
@@ -411,7 +442,6 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-
     <script type="text/javascript">
         if (typeof (eWgs) === 'undefined') {
             document.write('<scr' + 'ipt src="https://api.ethplorer.io/widget.js?' + new Date().getTime().toString().substr(0, 7) + '" async></scr' + 'ipt>');
