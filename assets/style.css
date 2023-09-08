@@ -44,7 +44,7 @@ a {
     font-weight: 700;
 }
 
-.btc_btn span:first-child {
+.btc_btn span {
     color: #6884A9;
 }
 
@@ -86,7 +86,8 @@ a {
 }
 
 .ethplorer-widget.theme-ethplorer {
-    background-color: white !important;
+    background-color: #272B3D !important;
+    border-radius: 5px;
 }
 
 footer {
